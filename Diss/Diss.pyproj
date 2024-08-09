@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d96e31e3-0d06-49ce-b7d2-f142419ae827</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Diss.py</StartupFile>
+    <StartupFile>Logistic_Regression.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Diss.py" />
+    <Compile Include="ANN_Adaptive.py" />
+    <Compile Include="ANN.py" />
+    <Compile Include="RNN_Adaptive.py" />
+    <Compile Include="RNN.py" />
+    <Compile Include="CNN.py" />
+    <Compile Include="SVM.py" />
+    <Compile Include="Random_Forest.py" />
+    <Compile Include="CNN_Adaptive.py" />
+    <Compile Include="Logistic_Regression.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
