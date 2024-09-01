@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="ANN_Adaptive.py" />
     <Compile Include="ANN.py" />
+    <Compile Include="K-NN.py" />
     <Compile Include="RNN_Adaptive.py" />
     <Compile Include="RNN.py" />
     <Compile Include="CNN.py" />
